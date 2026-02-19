@@ -1,6 +1,6 @@
 # 📰 Daily RSS Digest
 
-Automatically fetches articles from RSS feeds every day, saves them as a Markdown file, and commits to this repo — keeping your GitHub activity streak alive.
+Automatically fetches articles from RSS feeds every day, saves them as a Markdown file, and commits to this repo.
 
 ## How it works
 
@@ -35,7 +35,7 @@ FEEDS = [
 In `.github/workflows/daily_digest.yml`, change the cron expression:
 
 ```yaml
-- cron: '0 8 * * *'   # 8:00 AM UTC daily
+- cron: "0 8 * * *" # 8:00 AM UTC daily
 ```
 
 Use [crontab.guru](https://crontab.guru) to build your preferred schedule.
