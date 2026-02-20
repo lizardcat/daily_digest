@@ -29,8 +29,8 @@ jobs:
 
       - name: Commit & push digest
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name  "lizardcat"
+          git config user.email "alex.raza.ke@gmail.com"
           git add digests/
           git diff --cached --quiet || git commit -m "📰 Daily digest $(date +'%Y-%m-%d')"
           git push
